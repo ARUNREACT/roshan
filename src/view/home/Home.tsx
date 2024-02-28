@@ -45,6 +45,16 @@ export function Dashboard() {
             <img src={require("../../asset/logo/logo8.jpg")}/>
             <img src={require("../../asset/logo/logo9.png")}/>  
             <img src="https://www.cloudtechtiq.com/themes/cloudtechtiq/assets/imgs/office-365%20(2).svg"/>
+            <img src={require("../../asset/logo/logo1.jpg")}/>
+            <img src={require("../../asset/logo/logo2.png")}/>
+            <img src={require("../../asset/logo/logo3.jpg")}/>
+            <img src={require("../../asset/logo/logo4.jpg")}/>
+            <img src={require("../../asset/logo/logo5.jpg")}/>
+            <img src={require("../../asset/logo/logo6.jpg")}/>
+            <img src={require("../../asset/logo/logo7.jpg")}/>
+            <img src={require("../../asset/logo/logo8.jpg")}/>
+            <img src={require("../../asset/logo/logo9.png")}/>  
+            <img src="https://www.cloudtechtiq.com/themes/cloudtechtiq/assets/imgs/office-365%20(2).svg"/>
           </div>
         </div>
 
@@ -98,11 +108,11 @@ export function Dashboard() {
         </div>
 
 
-        <div className="structure col-12 py-5 "id="Work-Process">
+        <div className="structure col-12 py-5 mx-0 px-0 "id="Work-Process">
         <h1 className="text-center">THE STRUCTURE ABOUT</h1>
         <h1 className="text-center">MY WORK PROCESS</h1>
           <Work
-          class="d-flex flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto "  
+          class="d-flex flex-wrap justify-content-center align-items-center col-12 mx-0 px-0 col-lg-8 mx-auto "  
           img={require("../../asset/one.png")}
           h4={`Analysis`}
           p={`Before embarking on eLearning course development, my approach aligns with the ADDIE model, emphasizing an initial analysis phase. By comprehensively assessing the current situation, uncover learning goals, audience knowledge, and pinpoint gaps, ensuring a strategic and effective training plan.`}

@@ -67,7 +67,7 @@ export function Header() {
             >
               <a className="head-logo" href="#home">
                 <img
-                  src={require("../../asset/logo.png")}
+                  src={require("../../asset/main-logo.png")}
                   alt="paype logo"
                   className="logo-circle"
                 />
@@ -78,7 +78,7 @@ export function Header() {
                 onClick={() => setOffCanvasOpen(false)}
                 aria-label="close"
               >
-                <i className="fs-1 text-light ">
+                <i className="fs-1 text-dark ">
                   <XCircleFill />
                 </i>
               </a>
