@@ -32,12 +32,19 @@ export function Dashboard() {
           </div>
         </div>
 
-        <div className="scroll-img">
-          <div className="wave">
-          <div className="logos">
-            <img src="https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png"/>
-            <img src="https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png"/>
-          </div>
+        <div className="scroll-img p-3">
+          <div className="wave"><img src={require("../../asset/wave.jpg")}/></div>
+          <div className="logos mx-auto">
+            <img src={require("../../asset/logo/logo1.jpg")}/>
+            <img src={require("../../asset/logo/logo2.png")}/>
+            <img src={require("../../asset/logo/logo3.jpg")}/>
+            <img src={require("../../asset/logo/logo4.jpg")}/>
+            <img src={require("../../asset/logo/logo5.jpg")}/>
+            <img src={require("../../asset/logo/logo6.jpg")}/>
+            <img src={require("../../asset/logo/logo7.jpg")}/>
+            <img src={require("../../asset/logo/logo8.jpg")}/>
+            <img src={require("../../asset/logo/logo9.png")}/>  
+            <img src="https://www.cloudtechtiq.com/themes/cloudtechtiq/assets/imgs/office-365%20(2).svg"/>
           </div>
         </div>
 
@@ -46,7 +53,7 @@ export function Dashboard() {
             <img
               data-aos="zoom-in-up"
               className="img-fluid py-4"
-              src={require("../../asset/profile.png")}
+              src="https://www.appsquadz.com/img/e-learning-app-development.png"
               alt=""
             />
           </div>
@@ -91,12 +98,12 @@ export function Dashboard() {
         </div>
 
 
-        <div className="structure col-12 my-5">
-        <h4 className="text-center">THE STRUCTURE ABOUT</h4>
-        <h4 className="text-center">MY WORK PROCESS</h4>
+        <div className="structure col-12 py-5 "id="Work-Process">
+        <h1 className="text-center">THE STRUCTURE ABOUT</h1>
+        <h1 className="text-center">MY WORK PROCESS</h1>
           <Work
           class="d-flex flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto "  
-          img='https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png'
+          img={require("../../asset/one.png")}
           h4={`Analysis`}
           p={`Before embarking on eLearning course development, my approach aligns with the ADDIE model, emphasizing an initial analysis phase. By comprehensively assessing the current situation, uncover learning goals, audience knowledge, and pinpoint gaps, ensuring a strategic and effective training plan.`}
           />
@@ -204,15 +211,15 @@ export function Dashboard() {
             </div>
 
             <div className="col-12 col-md-5  parent-progress ">
-              <Progress skill={"html"} p1={`Articulate 360 ( Storyline )`} p2={`90%`} />
-              <Progress skill={"css"} p1={`Knowledge of Captivate`} p2={`80%`} />
+              <Progress skill={"html"} p1={`Articulate 360`} p2={`90%`} />
+              <Progress skill={"css"} p1={`Captivate`} p2={`80%`} />
               <Progress skill={"bootstrap"} p1={`Flimora`} p2={`85%`} />
-              <Progress skill={"media"} p1={`Adult Learning Theory`} p2={`80%`} />
-              <Progress skill={"sass"} p1={`ADDIE Model, SAM`} p2={`85%`} />
+              <Progress skill={"media"} p1={`ALP`} p2={`80%`} />
+              <Progress skill={"sass"} p1={`ADDIE Model`} p2={`85%`} />
               <Progress skill={"seo"} p1={`Content Development`} p2={`70%`} />
               <Progress skill={"js"} p1={`LMS`} p2={`80%`} />
               <Progress skill={"ms"} p1={`Microsoft 365`} p2={`90%`} />
-              <Progress skill={"pw"} p1={`POWER`} p2={`75%`} />
+              <Progress skill={"pw"} p1={`POWER BI`} p2={`75%`} />
             </div>
           </div>
         </div>
@@ -226,71 +233,70 @@ export function Dashboard() {
             </h1>
 
             <h2 data-aos="slide-up" className="text-center">
-              Client projects
             </h2>
             <div className="project-works text-center">
               <Project
-                to={"https://www.paype.co.in/"}
-                img={require("../../asset/works/paype.png")}
-                h4={`Fintech`}
+                to={"#"}
+                img='https://indianjeweller.in/public/assets/uploads/news/1683795561_215bc96d14421bcdeaab.jpg'
+                h4={`Emerald`}
               />
               <Project
-                to={"https://www.planneraddict.in/"}
-                img={require("../../asset/works/planner.png")}
-                h4={`Event management`}
+                to={"#"}
+                img="https://media.licdn.com/dms/image/D560BAQEb1qdlVm6FPg/company-logo_200_200/0/1704360221695/sight_spectrum_logo?e=2147483647&v=beta&t=uryEA0Hk780zKCVOvkI6gMkaiwOEym8XnfetMbaIdYQ"
+                h4={`Sight Specturm`}
               />
             </div>
           </div>
 
           <div className="col-lg-12 col-xl-10 works p-0 pt-0 pb-sm-5 col-12 mx-auto">
             <h2 data-aos="slide-up" className="text-center mt-3">
-              White Label's
+              Modules
             </h2>
             <div className="project-works text-center">
               <Project
-                to={"https://main.d3k8exd9ibd63g.amplifyapp.com/"}
-                h4={`Project 01`}
-                img={require("../../asset/works/white1.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Web%20Based%20Software%20-%20-%20Storyline%20output/story.html"}
+                h4={`Web Based Software`}
+                img={require("../../asset/new/work1.jpg")}
               />
               <Project
-                to={"https://main.da72npu9ha1ra.amplifyapp.com/"}
-                h4={`Project 02`}
-                img={require("../../asset/works/white2.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Pantone%202022%20Colour%20of%20the%20Year%20-%20Storyline%20output/story.html"}
+                h4={`Pantone`}
+                img={require("../../asset/new/work2.jpg")}
               />
               <Project
-                to={"https://main.dfmgn1kkcffgf.amplifyapp.com/"}
-                h4={`Project 03`}
-                img={require("../../asset/works/white3.png")}
+                to={"https://docs.google.com/spreadsheets/d/1nm3lP50sIy89zgoYvswZTk-JuIgBdLHos3DsV3XsH4o/edit#"}
+                h4={`python full course`}
+                img={require("../../asset/new/work3.jpg")}
               />
               <Project
-                to={"https://main.d2tnzdvsjxxibx.amplifyapp.com/"}
-                h4={`Project 04`}
-                img={require("../../asset/works/white4.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Machinery%20CNC%20-%20Storyline%20output/story.html"}
+                h4={`Machinery CNC`}
+                img={require("../../asset/new/work4.jpg")}
               />
               <Project
-                to={"https://main.denp5gqp71m4q.amplifyapp.com/"}
-                h4={`Project 05`}
-                img={require("../../asset/works/white5.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/OPEN%20MINDEDNESS%20-%20Storyline%20output/story.html"}
+                h4={`OPEN MINDEDNESS`}
+                img={require("../../asset/new/work5.jpg")}
               />
               <Project
-                to={"https://main.da72npu9ha1ra.amplifyapp.com/"}
-                h4={`Project 02`}
-                img={require("../../asset/works/white2.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/MC_Gold%20coins%20-%20Storyline%20output/story.html"}
+                h4={`MC_Gold coins`}
+                img={require("../../asset/new/work6.jpg")}
               />
               <Project
-                to={"https://main.dfmgn1kkcffgf.amplifyapp.com/"}
-                h4={`Project 03`}
-                img={require("../../asset/works/white3.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Warehouse%20-%20Storyline%20output/story.html"}
+                h4={`Warehouse`}
+                img={require("../../asset/new/work7.jpg")}
               />
               <Project
-                to={"https://main.d2tnzdvsjxxibx.amplifyapp.com/"}
-                h4={`Project 04`}
-                img={require("../../asset/works/white4.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Coding%20-%20Storyline%20output/story.html"}
+                h4={`Coding`}
+                img={require("../../asset/new/work8.jpg")}
               />
               <Project
-                to={"https://main.denp5gqp71m4q.amplifyapp.com/"}
-                h4={`Project 05`}
-                img={require("../../asset/works/white5.png")}
+                to={"http://../Documents/My%20Articulate%20Projects/Servers%20-%20Storyline%20output/story.html"}
+                h4={`Servers`}
+                img={require("../../asset/new/work9.jpg")}
               />
             </div>
           </div>

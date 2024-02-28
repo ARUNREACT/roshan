@@ -10,10 +10,10 @@ export function Icon(props: any) {
 
 export function Footer() {
   return (
-    <div data-aos="zoom-in" className="main-footer bg-light py-5">
+    <div data-aos="zoom-in" className="main-footer py-5">
       <div className="col-md-9 col-lg-7 col-xl-6 mx-auto pt-3 p-0">
         <div className="footer-img">
-          <img src={require("../../asset/logo.png")} alt="" />
+          <img src={require("../../asset/main-logo.png")} alt="" />
           <h2>ROSHAN LESLIE</h2>
         </div>
         <div className="footer-links py-3 my-3">

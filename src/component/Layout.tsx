@@ -53,7 +53,7 @@ export function Work(props: any) {
   return (
     <div className="col-12 d-flex flex-wrap justify-content-center mt-3">
       <div className={props.class}>
-        <div data-aos="zoom-in-up" className="col-12 d-flex justify-content-center col-lg-3 two-col-works-img my-3">
+        <div data-aos="zoom-in-up" className="col-12 d-flex justify-content-center col-lg-4 two-col-works-img my-3">
             <img className="img-fluid work-img" src={props.img} alt="" />
         </div>
         <div data-aos="zoom-in-up" className="col-12 col-lg-8  two-col-works-content py-3  rounded text-center">

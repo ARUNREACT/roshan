@@ -40,7 +40,7 @@ export function Header() {
         <div className="p-2 col-lg-10 mx-auto d-flex align-items-center justify-content-between">
           <a className="head-logo " href="#home">
             <img
-              src={require("../../asset/logo.png")}
+              src={require("../../asset/main-logo.png")}
               alt="paype logo"
               className="logo-circle"
             />
@@ -96,8 +96,8 @@ export function Header() {
                   closeOffCanvas={handleOffCanvasClose}
                 />
                 <HeaderOption
-                  href={"#project-phase"}
-                  footaname={"Project phase"}
+                  href={"#Work-Process"}
+                  footaname={"Work Process"}
                   closeOffCanvas={handleOffCanvasClose}
                 />
                 <HeaderOption
