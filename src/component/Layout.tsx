@@ -37,7 +37,7 @@ export function Project(props: any) {
   return (
     <div>
       <div data-aos="zoom-in-up" className="child-project-works my-3">
-        <a target="_blank" href={props.to}>
+        <a target="" href="#">
           <img className="img-fluid" src={props.img} alt="" />
         </a>
       </div>
@@ -53,7 +53,7 @@ export function Work(props: any) {
   return (
     <div className="col-12 mx-0 px-0 d-flex flex-wrap justify-content-center mt-3">
       <div className={props.class}>
-        <div data-aos="zoom-in-up" className="col-12 mx-0 px-0 d-flex justify-content-center col-lg-4 two-col-works-img my-3">
+        <div data-aos="zoom-in-up" className="col-12 d-flex justify-content-center col-lg-4 two-col-works-img my-3">
             <img className="img-fluid work-img" src={props.img} alt="" />
         </div>
         <div data-aos="zoom-in-up" className="col-12 col-lg-8 two-col-works-content py-3  rounded text-center">

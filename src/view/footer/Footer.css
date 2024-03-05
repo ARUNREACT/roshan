@@ -13,10 +13,11 @@
 }
 .footer-img h2 {
   margin: 0;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 10px;
+  color: #a15c38;
 }
 
 .footer-links {

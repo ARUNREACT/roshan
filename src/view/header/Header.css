@@ -22,14 +22,13 @@
 }
 
 .navbar.sticky .nav-link {
-  color: rgb(0, 0, 0);
+  color: #a15c38;
 }
 .navbar.sticky::after {
   height: 100%;
 }
 .navbar.sticky .nav-link:hover {
-  color: var(--primary-color);
-  border-bottom: 2px solid var(--third-color) !important;
+  color: black;
 }
 .navbar.sticky .list {
   color: black;
@@ -55,8 +54,8 @@
 
 .navbar-nav .nav-link:hover {
   transition-delay: 0.1s;
-  color: #6fd6ff;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  color: black;
+/*  border-bottom: 2px solid rgb(0, 0, 0);*/
 }
 @media (max-width: 767px) {
   .offcanvas {

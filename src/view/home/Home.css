@@ -31,7 +31,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&family=Roboto&display=swap");
 
 .text h1,
-.text h2 {
+.text h2,.scroll-img h2 {
   font-family: "Libre Baskerville", serif;
   font-size: calc(2rem + 2vw);
   font-weight: 900;
@@ -41,10 +41,11 @@
   padding: 0;
   margin: 0;
 }
-
-.text h2 {
-  font-size: calc(2rem + 2.5vw);
+.scroll-img h2{
+    font-size: calc(1.5rem + 1.5vw);
+    font-weight: 900;
 }
+
 .text p, {
   font-size: calc(1rem + 1vw);
   font-weight: 100;
@@ -81,7 +82,8 @@
 .text a button:hover,
 .cv button:hover,
 .mailbtn:hover {
-  background-color: #e25238;
+  background-color: #c3a6a0;
+  color: #723616;
 }
 
 .about {
@@ -105,7 +107,7 @@
   color: #212529;
 }
 .about span {
-  color: rgb(11, 170, 255);
+  color: #a15c38;
 }
 .about h1,
 .structure h1,
@@ -121,6 +123,11 @@
 }
 .structure h1{
 font-size: calc(1.3rem + 1.3vw);
+}
+.structure h4,.parent-skill-set h4{
+   font-family: "Lora", serif;
+   font-weight: 700;
+   color: #a15c38;
 }
 .parent-form h2 {
   font-size: calc(2rem + 1vw);
@@ -257,9 +264,6 @@ font-size: calc(1.3rem + 1.3vw);
 
 .skills-img img {
   width: 180px;
-}
-.parent-skill-set h4 {
-  color: #a15c38;
 }
 .container {
   padding: 0;
@@ -407,9 +411,11 @@ height: 32px;
 }
 
 .project-works h4 {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 17px !important;
   color: black;
+  font-family: "Lora", serif;
+
 }
 .project-works {
   display: flex;
@@ -419,18 +425,17 @@ height: 32px;
 
 .child-project-works {
   border-radius: 12px;
-  overflow: hidden;
-  width: 230px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+/*  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 }
 .child-project-works img {
   object-fit: center;
   width:100%;
   height: 100%;
-  background-color: #e8e7e7;
+  background-color: transparent;
   transform: scale(1);
   transition: all 0.5s ease-in-out;
 }
@@ -444,7 +449,7 @@ height: 32px;
 
 @media screen and (max-width: 576px) {
   .project-works h4 {
-    margin-top: 10px !important;
+    margin-top: 5px !important;
   }
   .navbar,
   .offcanvas-header {
@@ -520,9 +525,10 @@ height: 32px;
 }
 
 .structure{
-  background-image: url(../../asset/Rectangle 1.png);
+  background-image: url(../../asset/rect1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f7f1f0;
 }
 
 .parent-form {
@@ -534,13 +540,13 @@ height: 32px;
 }
 
 .scroll-img {
-  height: 450px;
+  height: 550px;
   overflow: hidden;
 }
 
 .scroll-img{
   position: relative;
-  height: 450px;
+  height: 550px;
   width: 100%;
   border: 2px solid #eee;
   overflow: hidden;
@@ -549,22 +555,22 @@ height: 32px;
 }
 
 .scroll-img .wave img{
- height: 600px;
+ height: 650px;
  width: 100%;
  position: absolute;
  z-index: -1  ;
- top: -15%;
+ top: -0%;
  left: 0;
 }
 .scroll-img .logos{
   padding: 100px;
   position: absolute;
-  top: -3%;
+  top: 15%;
   left: 0;
   display: flex;
   width: 200%;
   margin: 70px 0;
-  animation: marquee 10s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 .scroll-img .logos img{
  height: 100px;

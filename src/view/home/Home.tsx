@@ -32,8 +32,9 @@ export function Dashboard() {
           </div>
         </div>
 
-        <div className="scroll-img p-3">
+        <div className="scroll-img py-3">
           <div className="wave"><img src={require("../../asset/wave.jpg")}/></div>
+          <h2 className="text-center mt-5">APPLIANCE KNOWN</h2>
           <div className="logos mx-auto">
             <img src={require("../../asset/logo/logo1.jpg")}/>
             <img src={require("../../asset/logo/logo2.png")}/>
@@ -91,7 +92,7 @@ export function Dashboard() {
             <a
               data-aos="zoom-in"
               className="mt-3 cv d-none d-sm-block"
-              href={require("../../asset/Arun Kumar React JS Resume.pdf")}
+              href={require("../../asset/Rl - ID - Resume.pdf")}
               download
             >
               <button>Download CV</button>
@@ -99,7 +100,7 @@ export function Dashboard() {
             <a
               data-aos="zoom-in"
               className="mt-3 cv d-block d-sm-none"
-              href={require("../../asset/Arun Kumar React JS Resume.png")}
+              href={require("../../asset/Rl - ID - Resume.pdf")}
               download
             >
               <button>Download CV</button>
@@ -107,37 +108,36 @@ export function Dashboard() {
           </div>
         </div>
 
-
-        <div className="structure col-12 py-5 mx-0 px-0 "id="Work-Process">
-        <h1 className="text-center">THE STRUCTURE ABOUT</h1>
+        <div className="structure col-12 mx-0 px-0"id="Work-Process">
+        <h1 className="text-center pt-5">THE STRUCTURE ABOUT</h1>
         <h1 className="text-center">MY WORK PROCESS</h1>
           <Work
-          class="d-flex flex-wrap justify-content-center align-items-center col-12 mx-0 px-0 col-lg-8 mx-auto "  
-          img={require("../../asset/one.png")}
+          class="d-flex flex-wrap justify-content-center align-items-center col-12 px-0 col-lg-8 mx-auto "  
+          img={require("../../asset/work_process/one1.png")}
           h4={`Analysis`}
           p={`Before embarking on eLearning course development, my approach aligns with the ADDIE model, emphasizing an initial analysis phase. By comprehensively assessing the current situation, uncover learning goals, audience knowledge, and pinpoint gaps, ensuring a strategic and effective training plan.`}
           />
           <Work
-          class="d-flex flex-row-reverse flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto"  
-          img='https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png'
+          class="d-flex flex-row-reverse flex-wrap justify-content-center align-items-center col-12 px-0 col-lg-8 mx-auto"  
+          img={require("../../asset/work_process/one4.png")}
           h4={`Design`}
           p={`In the Design phase, I leverage insights from the Analysis stage to make informed decisions for crafting a comprehensive learning program. This time-intensive phase demands meticulous attention to detail, where I focus on defining learning objectives, content structure, participant mental processes, and selecting the most effective tools and multimedia elements for optimal engagement`}
           />
           <Work
-          class="d-flex flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto"  
-          img='https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png'
+          class="d-flex flex-wrap justify-content-center align-items-center col-12 px-0 col-lg-8 mx-auto"  
+          img={require("../../asset/work_process/one3.png")}
           h4={`Development`}
           p={`In the Development phase, I transform the approved content ideas from the Design stage into a vibrant eLearning course. This involves visually laying out content, crafting graphics, recording videos, and utilizing eLearning authoring tools meticulously. My focus is on bringing the envisioned end-product to life for an enriched learning experience`}
           />
           <Work
-          class="d-flex flex-row-reverse flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto"  
-          img='https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png'
+          class="d-flex flex-row-reverse flex-wrap justify-content-center align-items-center col-12 px-0 col-lg-8 mx-auto"  
+          img={require("../../asset/work_process/one2.png")}
           h4={`Implementation`}
           p={`After successfully creating, testing, and gaining approval for the elearning course, I transition to the deployment phase. This involves exporting and uploading the course to the designated Learning Management System (LMS), ensuring alignment with client preferences for tracking. I remain vigilant during distribution, promptly addressing any issues that may arise as users engage with the course.`}
           />
           <Work
-          class="d-flex flex-wrap justify-content-center align-items-center col-12 col-lg-8 mx-auto"  
-          img='https://static.vecteezy.com/system/resources/previews/018/250/036/original/design-and-development-3d-icon-png.png'
+          class="d-flex flex-wrap justify-content-center align-items-center col-12 px-0 col-lg-8 mx-auto"  
+         img={require("../../asset/work_process/one5.png")}
           h4={`Evaluation`}
           p={`As the ADDIE Model concludes, my focus turns to the Evaluation phase, ensuring the effectiveness of the eLearning course I've designed, developed, and implemented. By analyzing back-end LMS data and seeking user feedback through surveys post-course completion, I gather vital information to identify areas for potential revision and improvement, ensuring a continuous enhancement of the learning. experience`}
           />
@@ -216,11 +216,11 @@ export function Dashboard() {
               <Progresscontent
                 img='https://cdn3d.iconscout.com/3d/premium/thumb/multi-screen-marketing-6377898-5283170.png?f=webp'
                 h5={`Response`}
-                p={`content for E-Learning courses resulting in a 25% increase in employee engagement with online training.`}
+                p={`Content for E-Learning courses resulting in a 25% increase in employee engagement with online training.`}
               />
             </div>
 
-            <div className="col-12 col-md-5  parent-progress ">
+            <div className="col-12 col-md-5 parent-progress ">
               <Progress skill={"html"} p1={`Articulate 360`} p2={`90%`} />
               <Progress skill={"css"} p1={`Captivate`} p2={`80%`} />
               <Progress skill={"bootstrap"} p1={`Flimora`} p2={`85%`} />
@@ -265,54 +265,54 @@ export function Dashboard() {
             <div className="project-works text-center">
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Web%20Based%20Software%20-%20-%20Storyline%20output/story.html"}
-                h4={`Web Based Software`}
-                img={require("../../asset/new/work1.jpg")}
+                h4={`python full course`}
+                img={require("../../asset/works/thumbail1.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Pantone%202022%20Colour%20of%20the%20Year%20-%20Storyline%20output/story.html"}
                 h4={`Pantone`}
-                img={require("../../asset/new/work2.jpg")}
+                img={require("../../asset/works/thumbail2.png")}
               />
               <Project
                 to={"https://docs.google.com/spreadsheets/d/1nm3lP50sIy89zgoYvswZTk-JuIgBdLHos3DsV3XsH4o/edit#"}
-                h4={`python full course`}
-                img={require("../../asset/new/work3.jpg")}
+                h4={`Coding`}
+                img={require("../../asset/works/thumbail3.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Machinery%20CNC%20-%20Storyline%20output/story.html"}
-                h4={`Machinery CNC`}
-                img={require("../../asset/new/work4.jpg")}
+                h4={`Servers`}
+                img={require("../../asset/works/thumbail4.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/OPEN%20MINDEDNESS%20-%20Storyline%20output/story.html"}
-                h4={`OPEN MINDEDNESS`}
-                img={require("../../asset/new/work5.jpg")}
+                h4={`Warehouse`}
+                img={require("../../asset/works/thumbail5.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/MC_Gold%20coins%20-%20Storyline%20output/story.html"}
-                h4={`MC_Gold coins`}
-                img={require("../../asset/new/work6.jpg")}
+                h4={`Web Based Software`}
+                img={require("../../asset/works/thumbail6.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Warehouse%20-%20Storyline%20output/story.html"}
-                h4={`Warehouse`}
-                img={require("../../asset/new/work7.jpg")}
+                h4={`Machinery CNC`}
+                img={require("../../asset/works/thumbail7.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Coding%20-%20Storyline%20output/story.html"}
-                h4={`Coding`}
-                img={require("../../asset/new/work8.jpg")}
+                h4={`OPEN MINDEDNESS`}
+                img={require("../../asset/works/thumbail8.png")}
               />
               <Project
                 to={"http://../Documents/My%20Articulate%20Projects/Servers%20-%20Storyline%20output/story.html"}
-                h4={`Servers`}
-                img={require("../../asset/new/work9.jpg")}
+                h4={`MC_Gold coins`}
+                img={require("../../asset/works/thumbail9.png")}
               />
             </div>
           </div>
         </div>
 
-        <div className="-5 col-12 p-0 parent-form flex flex-wrap justify-content-center" id="contact">
+        <div className="py-5 col-12 p-0 parent-form flex flex-wrap justify-content-center" id="contact">
         <div className="col-12 text-center">
             <h2 data-aos="slide-right">Contact Me</h2>
             </div>
